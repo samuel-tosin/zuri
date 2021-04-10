@@ -377,7 +377,7 @@ ul li a {
    }
  div.logo {
     margin-top: 9px;
-    margin-left: -74px;
+    margin-left: -56px;
     font-size: 1.2rem;
 }
 div.hero-section {
@@ -389,19 +389,19 @@ div.hero-section {
 }
 div.hero-content-heading h3 {
     margin-top: 76px;
-    margin-left: -93px;
-    font-size: 27px;
+    margin-left: -184px;
+    font-size: 22px;
 }
 div.hero-content-heading p {
-   margin-left: -43px;
-    margin-right: 7px;
-    font-size: 21px;
-    width: 400px;
+    margin-left: 1px;
+    margin-right: -56px;
+    font-size: 19px;
+    width: 216px;
 }
 div.hero-content-btn a {
     margin-top: 24px;
     font-size: 1.2rem;
-    margin-left: 94px;
+    margin-left: -17px;
   }
 
 div.hero-content-btn {
@@ -412,12 +412,13 @@ div.hero-background {
     width: 600px;
 }
 div.hero-background-pos {
-    left: 83%;
+    left: 29%;
+    bottom: -17%;
 }
 div.background {
-    height: 433px;
+    height: 463px;
     width: 350px;
-    margin-left: -135px;
+    margin-left: -218px;
 }
 div.background h4 {
     font-size: 2rem;
@@ -430,7 +431,7 @@ div.background p {
 }
 div.snapshot-team h2 {
     color: #555657;
-    margin-left: -90px;
+   margin-left: -184px;
     }
 div.snapshot-team {
     width: 600px;
@@ -439,19 +440,20 @@ div.snapshot-box {
     width: 600px;
 }
 div.gallery-content h4 {
-    margin-left: -98px;
+    margin-left: -172px;
 }
 div.gallery-content p {
-    width: 400px;
+    width: 365px;
+    margin-left: -40px;
 }
 div.snapshot-box-content {
- flex-direction: column;
- margin-top: -59px;
- margin-left: -98px;
+   flex-direction: column;
+    margin-top: -59px;
+    margin-left: -165px;
 }
 div.snapshot-team p {
     padding-top: 1.8rem;
-    margin-left: 57px;
+    margin-left: 20px;
     margin-right: 31px;
     padding: 11px;
     width: 400px;
@@ -462,14 +464,15 @@ div.img img {
     margin-left: -9px;
 }
 div.gallery-img {
-    margin-left: -90px;
+    margin-left: 46px;
     margin-top: -24px;
+    flex-direction: column;
 }
 div.footer-content h4 {
-    margin-left: -96px
+    margin-left: -141px;
 }
 div.footer-content p {
-    width: 400px;
+      width: 337px;
 }
 div.gallery-section {
     width: 600px;
@@ -484,18 +487,19 @@ div.footer-input {
 }
 input[type="email"] {
     display: block;
-    width: 77%;
+    width: 61%;
     margin-bottom: 10px;
     margin-left: 62px;
 }
 input[type="text"] {
-    width: 77%;
+    width: 61%;
     margin-bottom: 10px;
     margin-left: 62px;
 }
 textarea {
-    width: 64%;
+    width: 53%;
     margin-top: -14px;
+    margin-right: 76px;
 }
 div.footer-textarea {
     margin-left: -85px;
@@ -506,7 +510,7 @@ div.footer-textarea {
 .menu-bars {
   position: fixed;
   top: 0.5rem;
-  right: 7rem;
+  right: 14rem;
   z-index: 10;
   display: inline;
   cursor: pointer;
@@ -548,12 +552,38 @@ div.footer-textarea {
   transform: translateX(-100vw);
 }
 div.footer-btn a {
-    margin-left: -85px;
+    margin-left: -162px;
+
 }
 div.footer h6 {
-    margin-left: -96px;
+    margin-left: -142px;
 }
 
 }
 
+/*Media Query for different phones to balance the background-section circle*/
 
+/*Iphone 6/7/8/+*/
+@media screen and (max-height: 737px) {
+ div.hero-background-pos {
+    bottom: -28%;
+}
+}
+
+/*iphone 6/7/8*/
+@media screen and (max-height: 668px){
+    div.hero-background-pos {
+    bottom: -42%;
+}
+
+
+}
+/*galaxyS5/motoG4*/
+@media screen and (max-height: 641px){
+    div.hero-background-pos {
+        bottom: -49%;
+}
+div.background {
+  margin-left: -199px;
+}
+}
