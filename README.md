@@ -1,1 +1,1 @@
-https://samuel-tosin.github.io/zuri/
+https://samuel-tosin.github.io/zuri-responsive-task/
